@@ -1,5 +1,5 @@
 class Robot:
-#NEW
+#NE
     def movement(self):
         self.start_movement()
         self.turn_right()
