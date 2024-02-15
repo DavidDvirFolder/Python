@@ -1,5 +1,9 @@
 class Robot:
-#NE
+
+#Reeborg has entered a hurdles race.
+#Make him run the course, following the path shown
+
+
     def movement(self):
         self.start_movement()
         self.turn_right()
@@ -18,9 +22,9 @@ class Robot:
             turn_left()
 
     def repeat_movement(self):
-        for i in range(6):
-            self.movement()
+            for i in range(6):
+                self.movement()
 
-#remark
+
 my_instance = Robot()
 my_instance.repeat_movement()
