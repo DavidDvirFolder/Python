@@ -58,7 +58,7 @@ driver.get("https://magento.softwaretestingboard.com/")
 
 try:
     count = 3
-    exercise_instance = Exercise(driver, "georgebiden@gmail.com", "david130!")
+    exercise_instance = Exercise(driver, "botmail@gmail.com", "abcd")
     for i in range(3):
         # Wait for the "Sign In" link to be visible and click it
         exercise_instance.click_sign_in_link()
